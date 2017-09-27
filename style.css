@@ -44,24 +44,46 @@
 	}
 	.section1 { 
 		background-color: olivedrab;
-		display: block;
 		text-align: center;
+		padding: 5em 2em;
 	}
-	.fa fa-cloud {
+	.fa::before {
+		font-size: 2.8em;
+		}
+	.fa.fa-cloud {
 		font-size: large;
+		padding: 1.4em 1.4em;
+		border: 2px solid white;
+		margin: 0.5em;
+		text-decoration: none;
+		cursor: pointer;
+		border-radius: 50%;
+	}
+	.fa.fa-music {
+		font-size: large;
+		padding: 1.4em 1.4em;
+		border: 2px solid white;
+		margin: 0.5em;
+		text-decoration: none;
+		cursor: pointer;
+		border-radius: 50%;
+	}
+	.fa.fa-home {
+		font-size: large;
+		padding: 1.4em 1.4em;
+		border: 2px solid white;
+		margin: 0.5em;
+		text-decoration: none;
+		cursor: pointer;
+		border-radius: 50%;
+	}
+	.fa.fa-tree {
+		font-size: large;
+		padding: 1.4em 1.4em;
+		border: 2px solid white;
+		margin: 0.5em;
+		text-decoration: none;
+		cursor: pointer;
+		border-radius: 50%;
 	}
 </style>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
