@@ -167,5 +167,16 @@
 		transform: scale(1);
 		opacity: 1;
 	}
-	
+	.section4 { 
+		background-color: teal;
+		font-size: large;
+		text-align: center;
+		padding: 5em 2em;
+	}
+	.section4 .fa {
+		box-shadow: 0 0 0 4px rgba(255,255,255,1);
+		z-index: 1;
+		position: relative;
+		transition: box-shadow 0.2s;
+	}
 </style>
