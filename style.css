@@ -215,44 +215,34 @@
 	.sectionrest { 
 		background-color: papayawhip;
 		text-align: center;
-		padding: 2em 2em;
+		padding: 1em 0em;
 		margin: 0;
 	}
 	.levitate {
-		width: 12em;
-		height: 12em;
-		margin-top: 10px;
-		animation: move 5s infinite; 
+		width: 20em;
+		height: 18em;
+		animation: move 5s infinite;
+		position: relative;		
 	}
 	@-webkit-keyframes move {
 	0% {
-	top: 0px;
+	bottom: 0px;
 	}
 	50% {
-	top: 50px;
+	bottom: 35px;
 	}
 	100% {
-	top: 0px;}
-	
+	bottom: 0px;}
+	}
 	@keyframes move {
 	0% {
-	top: 0px;
+	bottom: 0px;
 	}
 	50% {
-	top: 50px;
+	bottom: 35px;
 	}
 	100% {
-	top: 0px;
+	bottom: 0px;
 	}
-	
-	@keyframes move {
-	0% {
-	transform: translatey(0px);
-	}
-	50% {
-    transform: translatey(-20px);
-	}
-	100% {
-    transform: translatey(0px);
 	}
 	</style>
